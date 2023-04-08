@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Xylophone
-//
-//  Created by Lesya Kotty on 30.03.2023.
-//
-
 import UIKit
 import AVFoundation
 
