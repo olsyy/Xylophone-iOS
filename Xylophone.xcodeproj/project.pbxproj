@@ -15,7 +15,6 @@
 		CA0A184929D62AA100586F95 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA0A184229D62AA100586F95 /* E.wav */; };
 		CA0A184A29D62AA100586F95 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA0A184329D62AA100586F95 /* D.wav */; };
 		CA4A099929E0D05300EB3ECC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CA4A099829E0D05300EB3ECC /* README.md */; };
-		CA4A099B29E0D05F00EB3ECC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CA4A099A29E0D05E00EB3ECC /* README.md */; };
 		CAFCAEC529D5EF360008591F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCAEC429D5EF360008591F /* AppDelegate.swift */; };
 		CAFCAEC729D5EF360008591F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCAEC629D5EF360008591F /* SceneDelegate.swift */; };
 		CAFCAEC929D5EF360008591F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCAEC829D5EF360008591F /* ViewController.swift */; };
@@ -33,7 +32,6 @@
 		CA0A184229D62AA100586F95 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
 		CA0A184329D62AA100586F95 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 		CA4A099829E0D05300EB3ECC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CA4A099A29E0D05E00EB3ECC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		CAFCAEC129D5EF360008591F /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFCAEC429D5EF360008591F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAFCAEC629D5EF360008591F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 		CAFCAEC329D5EF360008591F /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
-				CA4A099A29E0D05E00EB3ECC /* README.md */,
 				CAFCAEC429D5EF360008591F /* AppDelegate.swift */,
 				CAFCAEC629D5EF360008591F /* SceneDelegate.swift */,
 				CAFCAEC829D5EF360008591F /* ViewController.swift */,
@@ -167,7 +164,6 @@
 				CAFCAECE29D5EF380008591F /* Assets.xcassets in Resources */,
 				CA0A184429D62AA100586F95 /* A.wav in Resources */,
 				CA0A184629D62AA100586F95 /* B.wav in Resources */,
-				CA4A099B29E0D05F00EB3ECC /* README.md in Resources */,
 				CA0A184929D62AA100586F95 /* E.wav in Resources */,
 				CA0A184A29D62AA100586F95 /* D.wav in Resources */,
 				CAFCAECC29D5EF360008591F /* Main.storyboard in Resources */,

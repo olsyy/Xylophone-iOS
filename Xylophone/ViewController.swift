@@ -26,8 +26,14 @@ class ViewController: UIViewController {
     
     func playSound(button: UIButton) {
         let url = Bundle.main.url(forResource: button.currentTitle!, withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player.play()
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
+            player = try! AVAudioPlayer(contentsOf: url!)
+            player.play()
+        } catch let error {
+            print(error.localizedDescription)
+        }
                 
     }
 }
